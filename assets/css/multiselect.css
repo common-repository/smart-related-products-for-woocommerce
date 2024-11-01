@@ -1,0 +1,21 @@
+.custom-header{
+	padding:10px;
+	text-align: center;
+}
+.ms-selectable{
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.ms-selection{
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+div#contact {
+    float: right;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background: white;
+    padding: 30px;
+}
+table.form-table {
+    display: inline;
+}

@@ -1,0 +1,25 @@
+/*Стрелочки в related products*/
+.slick-list{
+width:100%;
+}
+.arrow{
+cursor:pointer;
+width:50px;
+height:50px;
+position: absolute;
+z-index:9999;
+transition:0.1s;
+}
+.arrow:hover{
+transform:scale(0.9);
+}
+.arrow.left{
+left:0px;
+top:50%;
+background:url(https://obuvmart.ru/wp-content/plugins/smart-related-products-for-woocommerce/assets/images/angle_left.png) no-repeat;
+}
+.arrow.right{
+right:0px;
+top:50%;
+background:url(https://obuvmart.ru/wp-content/plugins/smart-related-products-for-woocommerce/assets/images/angle_right.png) no-repeat;
+}
